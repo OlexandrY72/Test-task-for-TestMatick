@@ -40,7 +40,7 @@ public class Triangle implements IFigure {
 	// Overriding method toString()
 	@Override
 	public String toString() {
-		return "Фигура: " + this.getClass().getSimpleName() + ", площадь: " + this.getArea() + " кв.ед., периметр: "
-				+ this.getPerimeter() + "ед., цвет: " + Colors.getRandomColor();
+		return "Figure: " + this.getClass().getSimpleName() + ", area: " + this.getArea() + " square units., perimeter: "
+				+ this.getPerimeter() + " units., color: " + Colors.getRandomColor();
 	}
 }

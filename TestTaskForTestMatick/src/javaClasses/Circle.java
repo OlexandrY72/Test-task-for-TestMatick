@@ -31,7 +31,7 @@ public class Circle implements IFigure {
 	// Overriding method toString()
 	@Override
 	public String toString() {
-		return "Фигура: " + this.getClass().getSimpleName() + ", радиус: " + this.getRadius() + ", площадь: "
-				+ this.getArea() + " кв.ед., цвет: " + Colors.getRandomColor();
+		return "Figure: " + this.getClass().getSimpleName() + ", radius: " + this.getRadius() + ", area: "
+				+ this.getArea() + " square units., color: " + Colors.getRandomColor();
 	}
 }

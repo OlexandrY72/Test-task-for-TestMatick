@@ -28,7 +28,7 @@ public class Trapeze implements IFigure {
 	// Overriding method getArea()
 	@Override
 	public int getArea() {
-		return 1 / 2 * (sideA + sideB) * heightH;
+		return (sideA + sideB) * heightH * 1 / 2;
 	}
 
 	// Overriding method getSideLength()
@@ -46,7 +46,7 @@ public class Trapeze implements IFigure {
 	// Overriding method toString()
 	@Override
 	public String toString() {
-		return "Фигура: " + this.getClass().getSimpleName() + ", площадь: " + this.getArea() + " кв.ед., периметр: "
-				+ this.getPerimeter() + "ед., цвет: " + Colors.getRandomColor();
+		return "Figure: " + this.getClass().getSimpleName() + ", area: " + this.getArea() + " square units., perimeter: "
+				+ this.getPerimeter() + " units., color: " + Colors.getRandomColor();
 	}
 }
